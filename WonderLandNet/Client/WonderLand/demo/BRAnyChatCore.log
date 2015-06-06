@@ -1,0 +1,37 @@
+[2013-05-29 12:37:07(536)]	---------------------------BRAnyChatCore ActiveCallLog---------------------------
+[2013-05-29 12:37:07(538)]	Load SDK Success, dwFuncMode:0x3fa,V4.3(Build Time:Mar  6 2012 13:47:48)
+[2013-05-29 12:37:07(598)]	Load BRMiscUtil.dll success!(V4.7 Build Time:Mar 19 2013 15:34:35)
+[2013-05-29 12:37:07(731)]	Load BRMediaUtil.dll success!(V4.7 Build Time:Mar 19 2013 15:37:49)
+[2013-05-29 12:37:07(733)]	Load BRMediaShow.dll success!(V4.7 Build Time:Mar 19 2013 15:36:31)
+[2013-05-29 12:37:07(739)]	Load BRMediaCore.dll success!(V4.7 Build Time:Mar 27 2013 22:30:01)
+[2013-05-29 12:37:07(869)]	Invoke	Connect(127.0.0.1-8906), 0, 0xffffffff
+[2013-05-29 12:37:07(872)]	Invoke	LoginServer(username=)
+[2013-05-29 12:37:07(873)]	Invoke	EnterRoom(roomid=1)
+[2013-05-29 12:37:07(972)]	CheckClientSocketLink	 Connect(ip=127.0.0.1,port=8906)
+[2013-05-29 12:37:08(273)]	Server version: V4.3(Build Time:2012-02-29 19:43:01)
+[2013-05-29 12:37:08(274)]	Message	OnConnect(bSuccess=1)
+[2013-05-29 12:37:08(295)]	Message	OnLoginSystem(userid=-7,errorcode=0,username=), msg deliver worked(1)
+[2013-05-29 12:37:08(308)]	Message	OnEnterRoom(roomid=1,errorcode=0,siteindex=0)
+[2013-05-29 12:37:08(315)]	Message	OnReceiveOnlineUser(count=1,roomid=1)
+[2013-05-29 12:37:08(318)]	Invoke	BRAC_SetVideoPos(dwUserId:-1, hWnd:0x10a5c, dwLeft:390, dwTop:0, dwRight:597, dwBottom:164)
+[2013-05-29 12:37:08(320)]	Invoke	UserCameraControl(userid=-1,bOpen=1)
+[2013-05-29 12:37:08(321)]	Invoke	UserSpeakControl(userid=-1,bOpen=1)
+[2013-05-29 12:37:09(165)]	Win7 AEC Audio Capture Driver(内置式麦克风 (IDT High Definition Audio CODEC))
+[2013-05-29 12:37:09(172)]	Audio Init, error:0, device:0, 1, 16000, 16, capmode:0
+[2013-05-29 12:37:09(206)]	Audio Playback Device Init(0, 1, 16000, 16), WaveOut Playback Driver
+[2013-05-29 12:37:10(339)]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x32595559)
+[2013-05-29 12:37:10(340)]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x8d2681)
+[2013-05-29 12:37:10(341)]	MinCroppingSize(352, 288)	MaxCroppingSize(352, 288)	Format(YUY2, 0x32595559)
+[2013-05-29 12:37:10(342)]	MinCroppingSize(352, 288)	MaxCroppingSize(352, 288)	Format(YUY2, 0x8d2681)
+[2013-05-29 12:37:10(344)]	MinCroppingSize(320, 240)	MaxCroppingSize(320, 240)	Format(YUY2, 0x32595559)
+[2013-05-29 12:37:10(344)]	MinCroppingSize(320, 240)	MaxCroppingSize(320, 240)	Format(YUY2, 0x8d2681)
+[2013-05-29 12:37:10(345)]	MinCroppingSize(176, 144)	MaxCroppingSize(176, 144)	Format(YUY2, 0x32595559)
+[2013-05-29 12:37:10(346)]	MinCroppingSize(176, 144)	MaxCroppingSize(176, 144)	Format(YUY2, 0x8d2681)
+[2013-05-29 12:37:10(347)]	MinCroppingSize(160, 120)	MaxCroppingSize(160, 120)	Format(YUY2, 0x32595559)
+[2013-05-29 12:37:10(348)]	MinCroppingSize(160, 120)	MaxCroppingSize(160, 120)	Format(YUY2, 0x8d2681)
+[2013-05-29 12:37:10(351)]	Video Config Size(320, 240)	Format(YUY2, 25fps)
+[2013-05-29 12:37:10(382)]	video init finish:320x240, YUY2, fps:25
+[2013-05-29 12:37:14(028)]	Invoke	LeaveRoom(roomid=1)	Elapse:203 ms
+[2013-05-29 12:37:14(092)]	Invoke	LogoutServer(userid=-7)	Elapse:62 ms
+[2013-05-29 12:37:14(114)]	Message	OnLinkClose(reason=0)
+[2013-05-29 12:37:14(145)]	Invoke	BRAC_Release	Elapse:47 ms

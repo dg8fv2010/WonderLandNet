@@ -1,0 +1,520 @@
+﻿生成启动时间为 2014/11/29 14:47:30。
+     1>项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”在节点 2 上(build 个目标)。
+     1>正在使用工具版本“4.0”进行生成。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(入口点):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Release
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=Win32
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('F:\Project-Final\WonderLandNet\Sever - sql\Release\' != '' and !HasTrailingSlash('F:\Project-Final\WonderLandNet\Sever - sql\Release\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('Release\' != '' and !HasTrailingSlash('Release\'))。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_DetermineManagedStateFromCL”(目标“Build”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_DetermineManagedStateFromCL”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“_PrepareForBuild”(目标“Build”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_PrepareForBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“Build”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“SetEnv”任务。
+       任务“SetEnv”
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\;C:\ProgramData\Oracle\Java\javapath;D:\Python27\;D:\Python34\;D:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\TortoiseSVN\bin;D:\Program Files\TortoiseGit\bin\;D:\Program Files (x86)\Git\bin\;D:\Qt\Qt5.2.0\5.2.0\msvc2010_opengl\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;D:\Program Files (x86)\CMake 2.8\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\Tesseract-OCR;D:\Program Files\TortoiseGit\bin;D:\Program Files\MATLAB\R2014a\runtime\win64;D:\Program Files\MATLAB\R2014a\bin;D:\Program Files\MATLAB\R2014a\polyspace\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86);
+       已完成执行任务“SetEnv”的操作。
+       由于 false 条件，已跳过任务“SetEnv”；('$(_IsNativeEnvironment)' == 'true')计算为('' == 'true')。
+       任务“SetEnv”
+         LIB=F:\Project-Final\sql文件\lib;F:\Project-Final\irrlicht-1.7.3\lib\Win32-visualstudio;F:\Project-Final\WonderLandNet\Client\RakNet\Lib;C:\Users\dell\Desktop\irrlicht-1.7.3\lib\Win32-visualstudio;E:\Project\irrlicht-1.7.3\lib\Win32-visualstudio;E:\Project\sql文件\lib;F:\opencv\build\x86\vc10\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         INCLUDE=F:\Project-Final\sql文件\include;F:\Project-Final\irrlicht-1.7.3\include;F:\Project-Final\WonderLandNet\Client\RakNet\Source;C:\Users\dell\Desktop\irrlicht-1.7.3\include;E:\Project\irrlicht-1.7.3\include;E:\Project\sql文件\include;C:\Program Files (x86)\MySQL\MySQL Server 5.5\include;F:\opencv\build\include;F:\opencv\build\include\opencv;F:\opencv\build\include\opencv2;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include;
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“SetBuildDefaultEnvironmentVariables”的操作。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BeforeResolveReferences”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignProjectConfiguration”(目标“ResolveReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“ResolveProjectReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+       由于条件的计算结果为 false，已跳过目标“_RemoveNameMetadataFromProjectReferenceItems”；('@(ProjectReference)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveProjectReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Warning”；('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')计算为('' != '' and '' != '')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ResolveProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveNativeReferences”；('@(NativeReference)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets”中的目标“GetFrameworkPaths”(目标“ResolveAssemblyReferences”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“GetFrameworkPaths”的操作。
+       由于条件的计算结果为 false，已跳过目标“GetWinFXPath”；(('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))的计算结果为(('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetReferenceAssemblyPaths”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetReferenceAssemblyPaths”；('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))计算为('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets”中的目标“PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；(!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets')))计算为(!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets')))。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“PlatformPrepareForBuild”的操作。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“PrepareForBuild”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true')计算为(''!='true' and 'true' != 'true')。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' ))计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' ))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IntDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(OutDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“PrepareForBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetInstalledSDKLocations”(目标“ResolveSDKReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetInstalledSDKLocations”；('@(SDKReference)' != '')计算为('' != '')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“GetInstalledSDKLocations”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ResolveSDKReferences”的操作。
+       已跳过目标“ResolveSDKReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ExpandSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetSDKReferenceFiles”；('@(ResolvedSDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ExpandSDKReferences”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveAssemblyReferences”(目标“ResolveReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ResolveAssemblyReference”任务。
+       任务“ResolveAssemblyReference”
+         TargetFrameworkMoniker:
+             .NETFramework,Version=v4.0
+         TargetFrameworkMonikerDisplayName:
+             .NET Framework 4
+         TargetedRuntimeVersion:
+             v4.0.30319
+         Assemblies:
+             System.Core
+         AssemblyFiles:
+         CandidateAssemblyFiles:
+         TargetFrameworkDirectories:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+         InstalledAssemblyTables:
+         IgnoreInstalledAssemblyTable:
+             False
+         SearchPaths:
+             {CandidateAssemblyFiles}
+             C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib
+             C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib
+             {HintPathFromItem}
+             {TargetFrameworkDirectory}
+             {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}
+             {AssemblyFolders}
+             {GAC}
+             {RawFileName}
+             F:\Project-Final\WonderLandNet\Sever - sql\Release\
+         AllowedAssemblyExtensions:
+             .winmd
+             .dll
+             .exe
+         AllowedRelatedFileExtensions:
+             .pdb
+             .xml
+             .pri
+         AppConfigFile:
+             
+         AutoUnify:
+             False
+         CopyLocalDependenciesWhenParentReferenceInGac:
+             True
+         FindDependencies:
+             True
+         TargetProcessorArchitecture:
+             x86
+         StateFile:
+             Release\wonderLandSever.vcxprojResolveAssemblyReference.cache
+         InstalledAssemblySubsetTables:
+         IgnoreInstalledAssemblySubsetTable:
+             False
+         TargetFrameworkSubsets:
+         FullTargetFrameworkSubsetNames:
+             Full
+         ProfileName:
+             
+         FullFrameworkFolders:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+         LatestTargetFrameworkDirectories:
+         ProfileTablesLocation:
+         主引用“System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”。
+             解析的文件路径为“C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll”。
+             在搜索路径位置“{TargetFrameworkDirectory}”找到引用。
+                 用于 SearchPath“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib”。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe”，但它不存在。
+                 用于 SearchPath“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib”。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe”，但它不存在。
+                 用于 SearchPath“{TargetFrameworkDirectory}”。
+                 已考虑使用“C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd”，但它不存在。
+             此引用不是“CopyLocal”，因为它是系统必备文件。
+             此引用的 ImageRuntimeVersion 是“v4.0.30319”。
+       已完成执行任务“ResolveAssemblyReference”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ResolveAssemblyReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveComReferences”；('@(COMReference)'!='' or '@(COMFileReference)'!='')的计算结果为(''!='' or ''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AfterResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterResolveReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandDesignTimeFacades”；('$(ImplicitlyExpandDesignTimeFacades)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveTestReferences”；('@(Shadow)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveReferences”(目标“Build”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ResolveReferences”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“InitializeBuildStatus”(目标“Build”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Touch”任务。
+       任务“Touch”
+         正在创建“Release\wonderLandSever.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“InitializeBuildStatus”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSourcesTraverse”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BuildGenerateSourcesTraverse”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“BeforeBuildGenerateSources”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BeforeBuildGenerateSources”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“PreBuildEvent”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“PreBuildEvent”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_GenerateXMLData”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_GenerateXMLData”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_GenerateWebServiceProxy”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_GenerateWebServiceProxy”的操作。
+       由于条件的计算结果为 false，已跳过目标“Xsd”；('@(Xsd)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Xsd”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_Xsd”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForMidl”(目标“_Midl”依赖于它):
+       任务“Makedir”
+       已完成执行任务“Makedir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“MakeDirsForMidl”的操作。
+       由于条件的计算结果为 false，已跳过目标“Midl”；('@(Midl)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeMIDLGeneratedCompileInputs”(目标“_Midl”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeMIDLGeneratedCompileInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterMidl”(目标“_Midl”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterMidl”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Midl”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_Midl”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“AfterBuildGenerateSources”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterBuildGenerateSources”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterBuildGenerateSourcesEvent”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterBuildGenerateSourcesEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSources”(目标“Build”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BuildGenerateSources”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompileTraverse”(目标“BuildCompile”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BuildCompileTraverse”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“BeforeClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BeforeClCompile”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLInputPDBName”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeCLInputPDBName”的操作。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeReferenceCLInput”(目标“_ClCompile”依赖于它):
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '')计算为(''=='true' and '' != 'false' and '' != '')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForCl”(目标“_ClCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“MakeDirsForCl”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_SelectedFiles”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_SelectedFiles”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+       已跳过目标“_SelectedFiles”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“SelectCustomBuild”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“SelectCustomBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“SelectClCompile”(目标“ClCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“SelectClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“Delete”；('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))计算为('ProgramDatabase' != '' and 'ProgramDatabase' != 'OldStyle' and 'Release\vc100.pdb' != '' and !Exists(Release\vc100.pdb))。
+       由于 false 条件，已跳过任务“CL”；('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true')计算为('' == 'Create' and ''!='true')。
+       正在使用程序集“Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“CL”任务。
+       任务“CL”
+         读取跟踪日志:
+         	Release\cl.read.1.tlog
+         出于性能原因，未记录输出详细信息(其中的 101 条)。
+         所有输出均为最新。
+       已完成执行任务“CL”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ClCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterClCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_ClCompile”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ResGen”；('@(EmbeddedResource)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“BeforeResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BeforeResourceCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForResourceCompile”(目标“_ResourceCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“MakeDirsForResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResourceCompile”；('@(ResourceCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterResourceCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_ResourceCompile”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_ResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ImpLib”；('$(ImpLibCompiled)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“_Lib”；('$(LibCompiled)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterBuildCompileEvent”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterBuildCompileEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompile”(目标“Build”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BuildCompile”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLinkTraverse”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BuildLinkTraverse”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“BeforeLink”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BeforeLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeRCOutputs”(目标“ComputeRCGeneratedLinkInputs”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeRCOutputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeRCGeneratedLinkInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeRCGeneratedLinkInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeManifestGeneratedLinkerInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeManifestGeneratedLinkerInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCustomBuildOutput”(目标“_Link”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeCustomBuildOutput”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLOutputs”(目标“ComputeCLGeneratedLinkInputs”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeCLOutputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLGeneratedLinkInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeCLGeneratedLinkInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeLinkInputsFromProject”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeLinkInputsFromProject”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeReferenceLinkInputs”；(@(ProjectReference) != '')的计算结果为( != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeManifestInputsTargets”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeManifestInputsTargets”的操作。
+       由于条件的计算结果为 false，已跳过目标“ManifestResourceCompile”；('$(EmbedManifestBy)' == 'LINK')的计算结果为('MT' == 'LINK')。
+       由于条件的计算结果为 false，已跳过目标“AssignWinFXEmbeddedResource”；('@(WinFXEmbeddedResource)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignTargetPaths”(目标“PrepareResourceNames”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignTargetPath”任务。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and '.txt'=='.manifest')。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and '.vcproj'=='.manifest')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AssignTargetPaths”的操作。
+       已跳过目标“AssignTargetPaths”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“SplitResourcesByCulture”(目标“PrepareResourceNames”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ResxWithNoCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ResxWithCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(NonResxWithCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(NonResxWithNoCulture)'!='')计算为(''!='')。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignCulture”任务。
+       任务“AssignCulture”
+       已完成执行任务“AssignCulture”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“SplitResourcesByCulture”的操作。
+       由于条件的计算结果为 false，已跳过目标“CreateManifestResourceNames”；('@(EmbeddedResource)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CreateCustomManifestResourceNames”(目标“PrepareResourceNames”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“CreateCustomManifestResourceNames”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“PrepareResourceNames”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“PrepareResourceNames”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForLink”(目标“_Link”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“MakeDirsForLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“DoLinkOutputFilesMatch”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))')计算为('F:\Project-Final\WonderLandNet\Sever - sql\Release\wonderLandSever.exe' != 'F:\Project-Final\WonderLandNet\Sever - sql\Release\wonderLandSever.exe')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(_OutputFileFromLink.Extension)' != '$(TargetExt)')计算为('.exe' != '.exe')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(_OutputFileFromLink.Filename)' != '$(TargetName)')计算为('wonderLandSever' != 'wonderLandSever')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“DoLinkOutputFilesMatch”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“PreLinkEvent”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreLinkEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“PreLinkEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets”中的目标“Link”(目标“_Link”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Link”任务。
+       任务“Link”
+         写入跟踪日志:
+         	Release\link.write.1.tlog
+         读取跟踪日志:
+         	Release\link.read.1.tlog
+         F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\BITSTREAM.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CCRAKNETSLIDINGWINDOW.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CCRAKNETUDT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CHECKSUM.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CLOUDCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CLOUDCOMMON.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CLOUDSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\COMMANDPARSERINTERFACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CONNECTIONGRAPH2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\CONSOLESERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\DATACOMPRESSOR.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\DIRECTORYDELTATRANSFER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\DS_BYTEPOOL.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\DS_BYTEQUEUE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\DS_HUFFMANENCODINGTREE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\DS_TABLE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\DYNDNS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\EMAILSENDER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\ENCODECLASSNAME.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\EPOCHTIMETOSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\FILELIST.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\FILELISTTRANSFER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\FILEOPERATIONS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\FORMATSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\FULLYCONNECTEDMESH2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\GETCHE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\GETS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\GETTIME.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\GETTIMEOFDAY.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\GRIDSECTORIZER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\HTTPCONNECTION.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\INCREMENTALREADINTERFACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\ITOA.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\LINUXSTRINGS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\LOCKLESSTYPES.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\LOGCOMMANDPARSER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\MAIN.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\MESSAGEFILTER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NATPUNCHTHROUGHCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NATPUNCHTHROUGHSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NATTYPEDETECTIONCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NATTYPEDETECTIONCOMMON.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NATTYPEDETECTIONSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NETCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NETSEVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NETWORKIDMANAGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\NETWORKIDOBJECT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\PACKETCONSOLELOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\PACKETFILELOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\PACKETIZEDTCP.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\PACKETLOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\PACKETOUTPUTWINDOWLOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\PLUGININTERFACE2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RACKSPACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKMEMORYOVERRIDE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKNETCOMMANDPARSER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKNETSOCKET.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKNETSTATISTICS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKNETTRANSPORT2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKNETTYPES.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKPEER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKSLEEP.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKTHREAD.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAKWSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RAND.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RDLMALLOC.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\READYEVENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RELIABILITYLAYER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\REPLICAMANAGER3.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\ROUTER2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\RPC4PLUGIN.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SECUREHANDSHAKE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SENDTOTHREAD.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SHA1.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SIGNALEDEVENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SIMPLEMUTEX.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SOCKETLAYER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SQLSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\STATISTICSHISTORY.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\STRINGCOMPRESSOR.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\STRINGTABLE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\SUPERFASTHASH.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\TABLESERIALIZER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\TCPINTERFACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\TEAMBALANCER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\TEAMMANAGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\TELNETTRANSPORT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\THREADSAFEPACKETLOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\TWOWAYAUTHENTICATION.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\UDPFORWARDER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\UDPPROXYCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\UDPPROXYCOORDINATOR.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\UDPPROXYSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\UTILITY.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\VARIABLEDELTASERIALIZER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\VARIABLELISTDELTATRACKER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\VARIADICSQLPARSER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\VITAINCLUDES.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\WSASTARTUPSINGLETON.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\_FINDFIRST.OBJ 的输出:
+         	F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\RELEASE\WONDERLANDSEVER.EXE
+         	F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\WONDERLANDSEVER\RELEASE\WONDERLANDSEVER.EXE.INTERMEDIATE.MANIFEST
+         	F:\PROJECT-FINAL\WONDERLANDNET\SEVER - SQL\RELEASE\WONDERLANDSEVER.PDB
+         所有输出均为最新。
+       已完成执行任务“Link”的操作。
+       任务“Message”
+         wonderLandSever.vcxproj -> F:\Project-Final\WonderLandNet\Sever - sql\Release\wonderLandSever.exe
+       已完成执行任务“Message”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“Link”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_DetermineManagedStateForLink”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_DetermineManagedStateForLink”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeLinkImportLibraryOutputsForClean”；('$(LinkSkippedExecution)' != 'true')的计算结果为('True' != 'true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterLink”(目标“_Link”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Link”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_Link”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_ALink”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_ALink”的操作。
+       已跳过目标“ComputeManifestInputsTargets”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“MakeDirsForManifest”(目标“Manifest”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“MakeDirsForManifest”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“Manifest”(目标“_Manifest”依赖于它):
+       由于 false 条件，已跳过任务“Delete”；(('$(BuildType)' != 'Build' or '$(ForceRebuild)' == 'true') and '$(EmbedManifestby)'=='LINK')计算为(('Build' != 'Build' or '' == 'true') and 'MT'=='LINK')。
+       正在使用程序集“Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Mt”任务。
+       任务“Mt”
+       已完成执行任务“Mt”的操作。
+       由于 false 条件，已跳过任务“RC”；('$(EmbedManifestby)'=='LINK')计算为('MT'=='LINK')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“Manifest”的操作。
+       已跳过目标“ComputeManifestGeneratedLinkerInputs”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Manifest”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_Manifest”的操作。
+       由于条件的计算结果为 false，已跳过目标“RegisterOutput”；('$(EmbedManifest)'=='true' and '$(LinkSkippedExecution)' != 'true')的计算结果为('true'=='true' and 'True' != 'true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedXDCFiles”(目标“_XdcMake”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeCLCompileGeneratedXDCFiles”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ResolvedXDCMake”(目标“_XdcMake”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true')计算为('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ResolvedXDCMake”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForXdcMake”(目标“_XdcMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“MakeDirsForXdcMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“XdcMake”；('@(XdcMake)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_XdcMake”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_XdcMake”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedSbrFiles”(目标“_BscMake”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“ComputeCLCompileGeneratedSbrFiles”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForBscMake”(目标“_BscMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“MakeDirsForBscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“BscMake”；('@(BscMake)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_BscMake”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_BscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“RunCodeAnalysis”；('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true')的计算结果为(''=='true' or ''=='true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_GenerateSatelliteAssemblyInputs”(目标“CreateSatelliteAssemblies”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_GenerateSatelliteAssemblyInputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“GenerateSatelliteAssemblies”；('@(_SatelliteAssemblyResourceInputs)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CreateSatelliteAssemblies”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“CreateSatelliteAssemblies”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Appverifier”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_Appverifier”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Deploy”(目标“BuildLink”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_Deploy”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“_CopyFilesMarkedCopyLocal”；('@(ReferenceCopyLocalPaths)' != '')的计算结果为('' != '')。
+       已跳过目标“AssignTargetPaths”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets”中的目标“GetCopyToOutputDirectoryXamlAppDefs”(目标“GetCopyToOutputDirectoryItems”依赖于它):
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“GetCopyToOutputDirectoryXamlAppDefs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetCopyToOutputDirectoryItems”(目标“_CopySourceItemsToOutputDirectory”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true')计算为('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“GetCopyToOutputDirectoryItems”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectory”；( '@(_SourceItemsToCopyToOutputDirectory)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectoryAlways”；( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' )的计算结果为( '' != '' )。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CopySourceItemsToOutputDirectory”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_CopySourceItemsToOutputDirectory”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyAppConfigFile”；( '@(AppConfigWithTargetPath)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyManifestFiles”；( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' )的计算结果为( ''=='true' or ''=='true' )。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForCompileOutputs”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“_CheckForCompileOutputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“_SGenCheckForOutputs”；('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))的计算结果为('Auto' == 'On' or (''!='' and 'Auto' == 'Auto'))。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CopyFilesToOutputDirectory”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“Copy”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')计算为('true' == 'true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true')计算为('true' == 'true' and 'true'!='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(AddModules)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('$(_SGenDllCreated)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true')计算为('false'=='true' and '' != 'true' and 'true'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DocumentationFileProduced)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(IntermediateSatelliteAssembliesWithTargetPath)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' )计算为('' != '' or '' != '' or '' != '' or '' != '' )。
+       由于 false 条件，已跳过任务“Copy”；('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '')计算为('' != 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Message”；('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '')计算为('' != 'true' and '' != '')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“CopyFilesToOutputDirectory”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“PostBuildEvent”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PostBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“PostBuildEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLink”(目标“Build”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“BuildLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“AfterBuild”(目标“Build”依赖于它):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“AfterBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“FinalizeBuildStatus”(目标“Build”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Delete”任务。
+       任务“Delete”
+         正在删除文件“Release\wonderLandSever.unsuccessfulbuild”。
+       已完成执行任务“Delete”的操作。
+       任务“Touch”
+         正在对“Release\wonderLandSever.lastbuildstate”执行 Touch 任务。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“FinalizeBuildStatus”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“Build”(入口点):
+     1>已完成在项目“wonderLandSever.vcxproj”中生成目标“Build”的操作。
+     1>已完成生成项目“F:\Project-Final\WonderLandNet\Sever - sql\wonderLandSever\wonderLandSever.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.43

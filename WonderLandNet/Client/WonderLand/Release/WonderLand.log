@@ -1,0 +1,1240 @@
+﻿生成启动时间为 2014/11/29 13:08:12。
+     1>项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>正在使用工具版本“4.0”进行生成。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(入口点):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Release
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=Win32
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('F:\Project-Final\WonderLandNet\Client\Release\' != '' and !HasTrailingSlash('F:\Project-Final\WonderLandNet\Client\Release\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('Release\' != '' and !HasTrailingSlash('Release\'))。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_DetermineManagedStateFromCL”(目标“Rebuild”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_DetermineManagedStateFromCL”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“_PrepareForRebuild”(目标“Rebuild”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_PrepareForRebuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BeforeRebuild”(目标“Rebuild”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeRebuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“_PrepareForClean”(目标“Clean”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Delete”任务。
+       任务“Delete”
+         正在删除文件“Release\WonderLand.lastbuildstate”。
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_PrepareForClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BeforeClean”(目标“Clean”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“UnmanagedUnregistration”；((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)'))的计算结果为((('' != '' or '' != 'true' or 'exe' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\WonderLand.vcxproj.UnmanagedRegistration.cache'))。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CoreClean”(目标“Clean”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“FindUnderPath”任务。
+       任务“FindUnderPath”
+         比较路径为“F:\Project-Final\WonderLandNet\Client\Release\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“FindUnderPath”
+         比较路径为“Release\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“RemoveDuplicates”任务。
+       任务“RemoveDuplicates”
+       已完成执行任务“RemoveDuplicates”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CoreClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignProjectConfiguration”(目标“CleanReferencedProjects”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“CleanReferencedProjects”依赖于它):
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CleanReferencedProjects”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('true' != 'true' and 'true' == 'true' and '' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CleanReferencedProjects”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CleanPublishFolder”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“RemoveDir”；('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)'))计算为('F:\Project-Final\WonderLandNet\Client\Release\app.publish\'=='F:\Project-Final\WonderLandNet\Client\Release\app.publish\' and Exists('F:\Project-Final\WonderLandNet\Client\Release\app.publish\'))。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CleanPublishFolder”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AfterClean”(目标“Clean”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“EntityClean”；('@(EntityDeploy)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets”中的目标“BeforeCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeCppClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets”中的目标“CoreCppClean”(目标“CppClean”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“CppClean”任务。
+       任务“CppClean”
+       已完成执行任务“CppClean”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CoreCppClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets”中的目标“AfterCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterCppClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets”中的目标“PGInstrumentedClean”(目标“CppClean”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“PGInstrumentedClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets”中的目标“CppClean”(目标“Clean”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CppClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“Clean”(目标“Rebuild”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“Clean”的操作。
+       已跳过目标“_DetermineManagedStateFromCL”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“_PrepareForBuild”(目标“Build”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_PrepareForBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“Build”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“SetEnv”任务。
+       任务“SetEnv”
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\;C:\ProgramData\Oracle\Java\javapath;D:\Python27\;D:\Python34\;D:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\TortoiseSVN\bin;D:\Program Files\TortoiseGit\bin\;D:\Program Files (x86)\Git\bin\;D:\Qt\Qt5.2.0\5.2.0\msvc2010_opengl\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;D:\Program Files (x86)\CMake 2.8\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\Tesseract-OCR;D:\Program Files\TortoiseGit\bin;D:\Program Files\MATLAB\R2014a\runtime\win64;D:\Program Files\MATLAB\R2014a\bin;D:\Program Files\MATLAB\R2014a\polyspace\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86);
+       已完成执行任务“SetEnv”的操作。
+       由于 false 条件，已跳过任务“SetEnv”；('$(_IsNativeEnvironment)' == 'true')计算为('' == 'true')。
+       任务“SetEnv”
+         LIB=F:\Project-Final\WonderLandNet\Sever - sql\RakNet\Lib;F:\Project-Final\sql文件\lib;F:\Project-Final\irrlicht-1.7.3\lib\Win32-visualstudio;E:\Project\irrlicht-1.7.3\lib\Win32-visualstudio;E:\项目\sql文件\lib;F:\opencv\build\x86\vc10\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         INCLUDE=F:\Project-Final\WonderLandNet\Sever - sql\RakNet\Source;F:\Project-Final\sql文件\include;F:\Project-Final\irrlicht-1.7.3\include;E:\Project\irrlicht-1.7.3\include;E:\Project\sql文件\include;F:\opencv\build\include;F:\opencv\build\include\opencv;F:\opencv\build\include\opencv2;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include;
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“SetBuildDefaultEnvironmentVariables”的操作。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeResolveReferences”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“_RemoveNameMetadataFromProjectReferenceItems”；('@(ProjectReference)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveProjectReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Warning”；('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')计算为('' != '' and '' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ResolveProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveNativeReferences”；('@(NativeReference)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets”中的目标“GetFrameworkPaths”(目标“ResolveAssemblyReferences”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“GetFrameworkPaths”的操作。
+       由于条件的计算结果为 false，已跳过目标“GetWinFXPath”；(('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))的计算结果为(('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetReferenceAssemblyPaths”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetReferenceAssemblyPaths”；('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))计算为('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets”中的目标“PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；(!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets')))计算为(!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets')))。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“PlatformPrepareForBuild”的操作。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“PrepareForBuild”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true')计算为(''!='true' and 'true' != 'true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' ))计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' ))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')计算为(''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IntDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(OutDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“PrepareForBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetInstalledSDKLocations”(目标“ResolveSDKReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetInstalledSDKLocations”；('@(SDKReference)' != '')计算为('' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“GetInstalledSDKLocations”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ResolveSDKReferences”的操作。
+       已跳过目标“ResolveSDKReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ExpandSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetSDKReferenceFiles”；('@(ResolvedSDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ExpandSDKReferences”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveAssemblyReferences”(目标“ResolveReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ResolveAssemblyReference”任务。
+       任务“ResolveAssemblyReference”
+         TargetFrameworkMoniker:
+             .NETFramework,Version=v4.0
+         TargetFrameworkMonikerDisplayName:
+             .NET Framework 4
+         TargetedRuntimeVersion:
+             v4.0.30319
+         Assemblies:
+             System.Core
+         AssemblyFiles:
+         CandidateAssemblyFiles:
+         TargetFrameworkDirectories:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+         InstalledAssemblyTables:
+         IgnoreInstalledAssemblyTable:
+             False
+         SearchPaths:
+             {CandidateAssemblyFiles}
+             C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib
+             C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib
+             {HintPathFromItem}
+             {TargetFrameworkDirectory}
+             {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}
+             {AssemblyFolders}
+             {GAC}
+             {RawFileName}
+             F:\Project-Final\WonderLandNet\Client\Release\
+         AllowedAssemblyExtensions:
+             .winmd
+             .dll
+             .exe
+         AllowedRelatedFileExtensions:
+             .pdb
+             .xml
+             .pri
+         AppConfigFile:
+             
+         AutoUnify:
+             False
+         CopyLocalDependenciesWhenParentReferenceInGac:
+             True
+         FindDependencies:
+             True
+         TargetProcessorArchitecture:
+             x86
+         StateFile:
+             Release\WonderLand.vcxprojResolveAssemblyReference.cache
+         InstalledAssemblySubsetTables:
+         IgnoreInstalledAssemblySubsetTable:
+             False
+         TargetFrameworkSubsets:
+         FullTargetFrameworkSubsetNames:
+             Full
+         ProfileName:
+             
+         FullFrameworkFolders:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+         LatestTargetFrameworkDirectories:
+         ProfileTablesLocation:
+         主引用“System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”。
+             解析的文件路径为“C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll”。
+             在搜索路径位置“{TargetFrameworkDirectory}”找到引用。
+                 用于 SearchPath“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib”。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe”，但它不存在。
+                 用于 SearchPath“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib”。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll”，但它不存在。
+                 已考虑使用“C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe”，但它不存在。
+                 用于 SearchPath“{TargetFrameworkDirectory}”。
+                 已考虑使用“C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd”，但它不存在。
+             此引用不是“CopyLocal”，因为它是系统必备文件。
+             此引用的 ImageRuntimeVersion 是“v4.0.30319”。
+       已完成执行任务“ResolveAssemblyReference”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ResolveAssemblyReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveComReferences”；('@(COMReference)'!='' or '@(COMFileReference)'!='')的计算结果为(''!='' or ''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AfterResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterResolveReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandDesignTimeFacades”；('$(ImplicitlyExpandDesignTimeFacades)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveTestReferences”；('@(Shadow)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“ResolveReferences”(目标“Build”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ResolveReferences”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“InitializeBuildStatus”(目标“Build”依赖于它):
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Touch”任务。
+       任务“Touch”
+         正在创建“Release\WonderLand.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“InitializeBuildStatus”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSourcesTraverse”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BuildGenerateSourcesTraverse”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“BeforeBuildGenerateSources”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeBuildGenerateSources”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“PreBuildEvent”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“PreBuildEvent”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_GenerateXMLData”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_GenerateXMLData”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_GenerateWebServiceProxy”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_GenerateWebServiceProxy”的操作。
+       由于条件的计算结果为 false，已跳过目标“Xsd”；('@(Xsd)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Xsd”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_Xsd”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForMidl”(目标“_Midl”依赖于它):
+       任务“Makedir”
+       已完成执行任务“Makedir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“MakeDirsForMidl”的操作。
+       由于条件的计算结果为 false，已跳过目标“Midl”；('@(Midl)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeMIDLGeneratedCompileInputs”(目标“_Midl”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeMIDLGeneratedCompileInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterMidl”(目标“_Midl”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterMidl”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Midl”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_Midl”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“AfterBuildGenerateSources”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterBuildGenerateSources”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterBuildGenerateSourcesEvent”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterBuildGenerateSourcesEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildGenerateSources”(目标“Build”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BuildGenerateSources”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompileTraverse”(目标“BuildCompile”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BuildCompileTraverse”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“BeforeClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeClCompile”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLInputPDBName”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeCLInputPDBName”的操作。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeReferenceCLInput”(目标“_ClCompile”依赖于它):
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '')计算为(''=='true' and '' != 'false' and '' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForCl”(目标“_ClCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“MakeDirsForCl”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_SelectedFiles”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_SelectedFiles”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+       已跳过目标“_SelectedFiles”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“SelectCustomBuild”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“SelectCustomBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“SelectClCompile”(目标“ClCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“SelectClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       由于 false 条件，已跳过任务“CL”；('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true')计算为('' == 'Create' and ''!='true')。
+       正在使用程序集“Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“CL”任务。
+       任务“CL”
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=1064
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\RakNet\Source\BitStream.cpp ..\RakNet\Source\CCRakNetSlidingWindow.cpp ..\RakNet\Source\CCRakNetUDT.cpp ..\RakNet\Source\CheckSum.cpp ..\RakNet\Source\CloudClient.cpp ..\RakNet\Source\CloudCommon.cpp ..\RakNet\Source\CloudServer.cpp ..\RakNet\Source\CommandParserInterface.cpp ..\RakNet\Source\ConnectionGraph2.cpp ..\RakNet\Source\ConsoleServer.cpp ..\RakNet\Source\DataCompressor.cpp ..\RakNet\Source\DirectoryDeltaTransfer.cpp ..\RakNet\Source\DS_BytePool.cpp ..\RakNet\Source\DS_ByteQueue.cpp ..\RakNet\Source\DS_HuffmanEncodingTree.cpp ..\RakNet\Source\DS_Table.cpp ..\RakNet\Source\DynDNS.cpp ..\RakNet\Source\EmailSender.cpp ..\RakNet\Source\EncodeClassName.cpp ..\RakNet\Source\EpochTimeToString.cpp ..\RakNet\Source\FileList.cpp ..\RakNet\Source\FileListTransfer.cpp ..\RakNet\Source\FileOperations.cpp ..\RakNet\Source\FormatString.cpp ..\RakNet\Source\FullyConnectedMesh2.cpp ..\RakNet\Source\Getche.cpp ..\RakNet\Source\Gets.cpp ..\RakNet\Source\GetTime.cpp ..\RakNet\Source\gettimeofday.cpp ..\RakNet\Source\GridSectorizer.cpp ..\RakNet\Source\HTTPConnection.cpp ..\RakNet\Source\IncrementalReadInterface.cpp ..\RakNet\Source\Itoa.cpp ..\RakNet\Source\LinuxStrings.cpp ..\RakNet\Source\LocklessTypes.cpp ..\RakNet\Source\LogCommandParser.cpp ..\RakNet\Source\MessageFilter.cpp ..\RakNet\Source\NatPunchthroughClient.cpp ..\RakNet\Source\NatPunchthroughServer.cpp ..\RakNet\Source\NatTypeDetectionClient.cpp ..\RakNet\Source\NatTypeDetectionCommon.cpp ..\RakNet\Source\NatTypeDetectionServer.cpp ..\RakNet\Source\NetworkIDManager.cpp ..\RakNet\Source\NetworkIDObject.cpp ..\RakNet\Source\PacketConsoleLogger.cpp ..\RakNet\Source\PacketFileLogger.cpp ..\RakNet\Source\PacketizedTCP.cpp ..\RakNet\Source\PacketLogger.cpp ..\RakNet\Source\PacketOutputWindowLogger.cpp ..\RakNet\Source\PluginInterface2.cpp ..\RakNet\Source\Rackspace.cpp ..\RakNet\Source\RakMemoryOverride.cpp ..\RakNet\Source\RakNetCommandParser.cpp ..\RakNet\Source\RakNetSocket.cpp ..\RakNet\Source\RakNetStatistics.cpp ..\RakNet\Source\RakNetTransport2.cpp ..\RakNet\Source\RakNetTypes.cpp ..\RakNet\Source\RakPeer.cpp ..\RakNet\Source\RakSleep.cpp ..\RakNet\Source\RakString.cpp ..\RakNet\Source\RakThread.cpp ..\RakNet\Source\RakWString.cpp ..\RakNet\Source\Rand.cpp ..\RakNet\Source\rdlmalloc.cpp ..\RakNet\Source\ReadyEvent.cpp ..\RakNet\Source\ReliabilityLayer.cpp ..\RakNet\Source\ReplicaManager3.cpp ..\RakNet\Source\Router2.cpp ..\RakNet\Source\RPC4Plugin.cpp ..\RakNet\Source\SecureHandshake.cpp ..\RakNet\Source\SendToThread.cpp ..\RakNet\Source\SHA1.cpp ..\RakNet\Source\SignaledEvent.cpp ..\RakNet\Source\SimpleMutex.cpp ..\RakNet\Source\SocketLayer.cpp ..\RakNet\Source\StatisticsHistory.cpp ..\RakNet\Source\StringCompressor.cpp ..\RakNet\Source\StringTable.cpp ..\RakNet\Source\SuperFastHash.cpp ..\RakNet\Source\TableSerializer.cpp ..\RakNet\Source\TCPInterface.cpp ..\RakNet\Source\TeamBalancer.cpp ..\RakNet\Source\TeamManager.cpp ..\RakNet\Source\TelnetTransport.cpp ..\RakNet\Source\ThreadsafePacketLogger.cpp ..\RakNet\Source\TwoWayAuthentication.cpp ..\RakNet\Source\UDPForwarder.cpp ..\RakNet\Source\UDPProxyClient.cpp ..\RakNet\Source\UDPProxyCoordinator.cpp ..\RakNet\Source\UDPProxyServer.cpp ..\RakNet\Source\VariableDeltaSerializer.cpp ..\RakNet\Source\VariableListDeltaTracker.cpp ..\RakNet\Source\VariadicSQLParser.cpp ..\RakNet\Source\VitaIncludes.cpp ..\RakNet\Source\WSAStartupSingleton.cpp ..\RakNet\Source\_FindFirst.cpp Building.cpp BuildingCommentContent.cpp fileTransper.cpp GUI.cpp LandMenu.cpp main.cpp netClient.cpp otherClient.cpp scene.cpp utility.cpp WonderLand.cpp
+         跟踪命令:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i F:\Project-Final\WonderLandNet\Client\WonderLand\Release /r "F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\BITSTREAM.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CCRAKNETSLIDINGWINDOW.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CCRAKNETUDT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CHECKSUM.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CLOUDCLIENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CLOUDCOMMON.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CLOUDSERVER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\COMMANDPARSERINTERFACE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CONNECTIONGRAPH2.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\CONSOLESERVER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\DATACOMPRESSOR.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\DIRECTORYDELTATRANSFER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\DS_BYTEPOOL.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\DS_BYTEQUEUE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\DS_HUFFMANENCODINGTREE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\DS_TABLE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\DYNDNS.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\EMAILSENDER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\ENCODECLASSNAME.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\EPOCHTIMETOSTRING.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\FILELIST.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\FILELISTTRANSFER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\FILEOPERATIONS.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\FORMATSTRING.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\FULLYCONNECTEDMESH2.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\GETCHE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\GETS.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\GETTIME.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\GETTIMEOFDAY.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\GRIDSECTORIZER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\HTTPCONNECTION.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\INCREMENTALREADINTERFACE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\ITOA.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\LINUXSTRINGS.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\LOCKLESSTYPES.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\LOGCOMMANDPARSER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\MESSAGEFILTER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\NATPUNCHTHROUGHCLIENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\NATPUNCHTHROUGHSERVER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\NATTYPEDETECTIONCLIENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\NATTYPEDETECTIONCOMMON.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\NATTYPEDETECTIONSERVER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\NETWORKIDMANAGER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\NETWORKIDOBJECT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\PACKETCONSOLELOGGER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\PACKETFILELOGGER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\PACKETIZEDTCP.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\PACKETLOGGER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\PACKETOUTPUTWINDOWLOGGER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\PLUGININTERFACE2.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RACKSPACE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKMEMORYOVERRIDE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKNETCOMMANDPARSER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKNETSOCKET.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKNETSTATISTICS.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKNETTRANSPORT2.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKNETTYPES.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKPEER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKSLEEP.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKSTRING.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKTHREAD.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAKWSTRING.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RAND.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RDLMALLOC.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\READYEVENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RELIABILITYLAYER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\REPLICAMANAGER3.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\ROUTER2.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\RPC4PLUGIN.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\SECUREHANDSHAKE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\SENDTOTHREAD.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\SHA1.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\SIGNALEDEVENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\SIMPLEMUTEX.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\SOCKETLAYER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\STATISTICSHISTORY.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\STRINGCOMPRESSOR.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\STRINGTABLE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\SUPERFASTHASH.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\TABLESERIALIZER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\TCPINTERFACE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\TEAMBALANCER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\TEAMMANAGER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\TELNETTRANSPORT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\THREADSAFEPACKETLOGGER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\TWOWAYAUTHENTICATION.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\UDPFORWARDER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\UDPPROXYCLIENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\UDPPROXYCOORDINATOR.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\UDPPROXYSERVER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\VARIABLEDELTASERIALIZER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\VARIABLELISTDELTATRACKER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\VARIADICSQLPARSER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\VITAINCLUDES.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\WSASTARTUPSINGLETON.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\RAKNET\SOURCE\_FINDFIRST.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\BUILDING.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\BUILDINGCOMMENTCONTENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\FILETRANSPER.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\GUI.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\LANDMENU.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\MAIN.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\NETCLIENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\OTHERCLIENT.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\SCENE.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\UTILITY.CPP|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\WONDERLAND.CPP" /b MSBuildConsole_CancelEvent0a276c78e44d4325a7c770352787239d  /c "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\RakNet\Source\BitStream.cpp ..\RakNet\Source\CCRakNetSlidingWindow.cpp ..\RakNet\Source\CCRakNetUDT.cpp ..\RakNet\Source\CheckSum.cpp ..\RakNet\Source\CloudClient.cpp ..\RakNet\Source\CloudCommon.cpp ..\RakNet\Source\CloudServer.cpp ..\RakNet\Source\CommandParserInterface.cpp ..\RakNet\Source\ConnectionGraph2.cpp ..\RakNet\Source\ConsoleServer.cpp ..\RakNet\Source\DataCompressor.cpp ..\RakNet\Source\DirectoryDeltaTransfer.cpp ..\RakNet\Source\DS_BytePool.cpp ..\RakNet\Source\DS_ByteQueue.cpp ..\RakNet\Source\DS_HuffmanEncodingTree.cpp ..\RakNet\Source\DS_Table.cpp ..\RakNet\Source\DynDNS.cpp ..\RakNet\Source\EmailSender.cpp ..\RakNet\Source\EncodeClassName.cpp ..\RakNet\Source\EpochTimeToString.cpp ..\RakNet\Source\FileList.cpp ..\RakNet\Source\FileListTransfer.cpp ..\RakNet\Source\FileOperations.cpp ..\RakNet\Source\FormatString.cpp ..\RakNet\Source\FullyConnectedMesh2.cpp ..\RakNet\Source\Getche.cpp ..\RakNet\Source\Gets.cpp ..\RakNet\Source\GetTime.cpp ..\RakNet\Source\gettimeofday.cpp ..\RakNet\Source\GridSectorizer.cpp ..\RakNet\Source\HTTPConnection.cpp ..\RakNet\Source\IncrementalReadInterface.cpp ..\RakNet\Source\Itoa.cpp ..\RakNet\Source\LinuxStrings.cpp ..\RakNet\Source\LocklessTypes.cpp ..\RakNet\Source\LogCommandParser.cpp ..\RakNet\Source\MessageFilter.cpp ..\RakNet\Source\NatPunchthroughClient.cpp ..\RakNet\Source\NatPunchthroughServer.cpp ..\RakNet\Source\NatTypeDetectionClient.cpp ..\RakNet\Source\NatTypeDetectionCommon.cpp ..\RakNet\Source\NatTypeDetectionServer.cpp ..\RakNet\Source\NetworkIDManager.cpp ..\RakNet\Source\NetworkIDObject.cpp ..\RakNet\Source\PacketConsoleLogger.cpp ..\RakNet\Source\PacketFileLogger.cpp ..\RakNet\Source\PacketizedTCP.cpp ..\RakNet\Source\PacketLogger.cpp ..\RakNet\Source\PacketOutputWindowLogger.cpp ..\RakNet\Source\PluginInterface2.cpp ..\RakNet\Source\Rackspace.cpp ..\RakNet\Source\RakMemoryOverride.cpp ..\RakNet\Source\RakNetCommandParser.cpp ..\RakNet\Source\RakNetSocket.cpp ..\RakNet\Source\RakNetStatistics.cpp ..\RakNet\Source\RakNetTransport2.cpp ..\RakNet\Source\RakNetTypes.cpp ..\RakNet\Source\RakPeer.cpp ..\RakNet\Source\RakSleep.cpp ..\RakNet\Source\RakString.cpp ..\RakNet\Source\RakThread.cpp ..\RakNet\Source\RakWString.cpp ..\RakNet\Source\Rand.cpp ..\RakNet\Source\rdlmalloc.cpp ..\RakNet\Source\ReadyEvent.cpp ..\RakNet\Source\ReliabilityLayer.cpp ..\RakNet\Source\ReplicaManager3.cpp ..\RakNet\Source\Router2.cpp ..\RakNet\Source\RPC4Plugin.cpp ..\RakNet\Source\SecureHandshake.cpp ..\RakNet\Source\SendToThread.cpp ..\RakNet\Source\SHA1.cpp ..\RakNet\Source\SignaledEvent.cpp ..\RakNet\Source\SimpleMutex.cpp ..\RakNet\Source\SocketLayer.cpp ..\RakNet\Source\StatisticsHistory.cpp ..\RakNet\Source\StringCompressor.cpp ..\RakNet\Source\StringTable.cpp ..\RakNet\Source\SuperFastHash.cpp ..\RakNet\Source\TableSerializer.cpp ..\RakNet\Source\TCPInterface.cpp ..\RakNet\Source\TeamBalancer.cpp ..\RakNet\Source\TeamManager.cpp ..\RakNet\Source\TelnetTransport.cpp ..\RakNet\Source\ThreadsafePacketLogger.cpp ..\RakNet\Source\TwoWayAuthentication.cpp ..\RakNet\Source\UDPForwarder.cpp ..\RakNet\Source\UDPProxyClient.cpp ..\RakNet\Source\UDPProxyCoordinator.cpp ..\RakNet\Source\UDPProxyServer.cpp ..\RakNet\Source\VariableDeltaSerializer.cpp ..\RakNet\Source\VariableListDeltaTracker.cpp ..\RakNet\Source\VariadicSQLParser.cpp ..\RakNet\Source\VitaIncludes.cpp ..\RakNet\Source\WSAStartupSingleton.cpp ..\RakNet\Source\_FindFirst.cpp Building.cpp BuildingCommentContent.cpp fileTransper.cpp GUI.cpp LandMenu.cpp main.cpp netClient.cpp otherClient.cpp scene.cpp utility.cpp WonderLand.cpp
+         BitStream.cpp
+     1>..\RakNet\Source\BitStream.cpp(835): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\BitStream.cpp(878): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         CCRakNetSlidingWindow.cpp
+         CCRakNetUDT.cpp
+         CheckSum.cpp
+         CloudClient.cpp
+         CloudCommon.cpp
+         CloudServer.cpp
+         CommandParserInterface.cpp
+         ConnectionGraph2.cpp
+         ConsoleServer.cpp
+     1>..\RakNet\Source\ConsoleServer.cpp(305): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         DataCompressor.cpp
+         DirectoryDeltaTransfer.cpp
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(38): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(54): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(114): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(116): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(152): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\DirectoryDeltaTransfer.cpp(154): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         DS_BytePool.cpp
+         DS_ByteQueue.cpp
+         DS_HuffmanEncodingTree.cpp
+         DS_Table.cpp
+     1>..\RakNet\Source\DS_Table.cpp(99): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\DS_Table.cpp(147): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\DS_Table.cpp(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\DS_Table.cpp(943): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\DS_Table.cpp(950): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\DS_Table.cpp(967): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>..\RakNet\Source\DS_Table.cpp(982): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\DS_Table.cpp(995): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>..\RakNet\Source\DS_Table.cpp(1009): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\DS_Table.cpp(1034): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+         DynDNS.cpp
+         EmailSender.cpp
+     1>..\RakNet\Source\EmailSender.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(112): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(121): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(123): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(144): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(149): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(177): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(265): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(279): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\EmailSender.cpp(284): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         EncodeClassName.cpp
+         EpochTimeToString.cpp
+     1>..\RakNet\Source\EpochTimeToString.cpp(20): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+         正在编译...
+         FileList.cpp
+     1>..\RakNet\Source\FileList.cpp(113): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\RakNet\Source\FileList.cpp(228): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(235): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(244): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(254): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(285): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(286): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(294): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\RakNet\Source\FileList.cpp(331): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\RakNet\Source\FileList.cpp(350): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(351): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(352): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(536): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(538): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(539): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\RakNet\Source\FileList.cpp(595): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(597): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(598): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\RakNet\Source\FileList.cpp(684): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(686): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(731): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileList.cpp(733): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileList.cpp(738): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(299) : 参见“unlink”的声明
+     1>..\RakNet\Source\FileList.cpp(776): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         FileListTransfer.cpp
+         FileOperations.cpp
+     1>..\RakNet\Source\FileOperations.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileOperations.cpp(51): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>..\RakNet\Source\FileOperations.cpp(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\RakNet\Source\FileOperations.cpp(87): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>..\RakNet\Source\FileOperations.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\FileOperations.cpp(129): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\FileOperations.cpp(159): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         FormatString.cpp
+     1>..\RakNet\Source\FormatString.cpp(16): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>..\RakNet\Source\FormatString.cpp(27): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+         FullyConnectedMesh2.cpp
+         Getche.cpp
+         Gets.cpp
+         GetTime.cpp
+         gettimeofday.cpp
+     1>..\RakNet\Source\gettimeofday.cpp(47): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(139) : 参见“__timezone”的声明
+     1>..\RakNet\Source\gettimeofday.cpp(48): warning C4996: '__daylight': This function or variable may be unsafe. Consider using _get_daylight instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(131) : 参见“__daylight”的声明
+         GridSectorizer.cpp
+         HTTPConnection.cpp
+         IncrementalReadInterface.cpp
+     1>..\RakNet\Source\IncrementalReadInterface.cpp(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         Itoa.cpp
+         LinuxStrings.cpp
+         LocklessTypes.cpp
+         LogCommandParser.cpp
+     1>..\RakNet\Source\LogCommandParser.cpp(136): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>..\RakNet\Source\LogCommandParser.cpp(150): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         MessageFilter.cpp
+         NatPunchthroughClient.cpp
+         NatPunchthroughServer.cpp
+     1>..\RakNet\Source\NatPunchthroughServer.cpp(190): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\NatPunchthroughServer.cpp(540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         NatTypeDetectionClient.cpp
+         正在编译...
+         NatTypeDetectionCommon.cpp
+         NatTypeDetectionServer.cpp
+     1>..\RakNet\Source\NatTypeDetectionServer.cpp(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         NetworkIDManager.cpp
+         NetworkIDObject.cpp
+         PacketConsoleLogger.cpp
+         PacketFileLogger.cpp
+     1>..\RakNet\Source\PacketFileLogger.cpp(25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketFileLogger.cpp(27): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketFileLogger.cpp(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         PacketizedTCP.cpp
+         PacketLogger.cpp
+     1>..\RakNet\Source\PacketLogger.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(180): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(412): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(417): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(432): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(435): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\PacketLogger.cpp(436): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         PacketOutputWindowLogger.cpp
+         PluginInterface2.cpp
+         Rackspace.cpp
+         RakMemoryOverride.cpp
+         RakNetCommandParser.cpp
+         RakNetSocket.cpp
+         RakNetStatistics.cpp
+     1>..\RakNet\Source\RakNetStatistics.cpp(21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(67): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(77): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(135): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(144): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakNetStatistics.cpp(145): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         RakNetTransport2.cpp
+     1>..\RakNet\Source\RakNetTransport2.cpp(53): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+         RakNetTypes.cpp
+     1>..\RakNet\Source\RakNetTypes.cpp(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\RakNetTypes.cpp(243): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\RakNetTypes.cpp(265): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\RakNetTypes.cpp(268): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         RakPeer.cpp
+     1>..\RakNet\Source\RakPeer.cpp(1684): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         RakSleep.cpp
+         RakString.cpp
+     1>..\RakNet\Source\RakString.cpp(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\RakString.cpp(177): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\RakString.cpp(195): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\RakString.cpp(336): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\RakString.cpp(337): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\RakString.cpp(876): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>..\RakNet\Source\RakString.cpp(1116): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakString.cpp(1130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\RakString.cpp(1207): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>..\RakNet\Source\RakString.cpp(1232): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+         正在编译...
+         RakThread.cpp
+         RakWString.cpp
+     1>..\RakNet\Source\RakWString.cpp(82): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(283) : 参见“wcscpy”的声明
+     1>..\RakNet\Source\RakWString.cpp(102): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : 参见“mbstowcs”的声明
+     1>..\RakNet\Source\RakWString.cpp(111): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : 参见“mbstowcs”的声明
+     1>..\RakNet\Source\RakWString.cpp(154): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(276) : 参见“wcscat”的声明
+     1>..\RakNet\Source\RakWString.cpp(184): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(276) : 参见“wcscat”的声明
+     1>..\RakNet\Source\RakWString.cpp(255): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(390) : 参见“wcsicmp”的声明
+     1>..\RakNet\Source\RakWString.cpp(375): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(283) : 参见“wcscpy”的声明
+         Rand.cpp
+         rdlmalloc.cpp
+         ReadyEvent.cpp
+         ReliabilityLayer.cpp
+         ReplicaManager3.cpp
+         Router2.cpp
+         RPC4Plugin.cpp
+     1>..\RakNet\Source\RPC4Plugin.cpp(269): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         SecureHandshake.cpp
+         SendToThread.cpp
+         SHA1.cpp
+     1>..\RakNet\Source\SHA1.cpp(201): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\RakNet\Source\SHA1.cpp(288): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\SHA1.cpp(289): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\SHA1.cpp(293): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\SHA1.cpp(294): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\SHA1.cpp(301): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\SHA1.cpp(302): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\SHA1.cpp(306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\RakNet\Source\SHA1.cpp(307): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\SHA1.cpp(312): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         SignaledEvent.cpp
+         SimpleMutex.cpp
+         SocketLayer.cpp
+         StatisticsHistory.cpp
+         StringCompressor.cpp
+         StringTable.cpp
+     1>..\RakNet\Source\StringTable.cpp(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\StringTable.cpp(127): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+         SuperFastHash.cpp
+     1>..\RakNet\Source\SuperFastHash.cpp(91): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         TableSerializer.cpp
+         正在编译...
+         TCPInterface.cpp
+         TeamBalancer.cpp
+         TeamManager.cpp
+         TelnetTransport.cpp
+     1>..\RakNet\Source\TelnetTransport.cpp(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\TelnetTransport.cpp(76): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>..\RakNet\Source\TelnetTransport.cpp(84): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(175) : 参见“strncat”的声明
+     1>..\RakNet\Source\TelnetTransport.cpp(137): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>..\RakNet\Source\TelnetTransport.cpp(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\TelnetTransport.cpp(305): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\RakNet\Source\TelnetTransport.cpp(318): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         ThreadsafePacketLogger.cpp
+     1>..\RakNet\Source\ThreadsafePacketLogger.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         TwoWayAuthentication.cpp
+         UDPForwarder.cpp
+         UDPProxyClient.cpp
+         UDPProxyCoordinator.cpp
+         UDPProxyServer.cpp
+         VariableDeltaSerializer.cpp
+         VariableListDeltaTracker.cpp
+         VariadicSQLParser.cpp
+         VitaIncludes.cpp
+         WSAStartupSingleton.cpp
+         _FindFirst.cpp
+         Building.cpp
+         BuildingCommentContent.cpp
+         fileTransper.cpp
+         GUI.cpp
+         正在编译...
+         LandMenu.cpp
+         main.cpp
+         netClient.cpp
+     1>netClient.cpp(1376): warning C4129: “.”: 不可识别的字符转义序列
+     1>netClient.cpp(1376): warning C4129: “B”: 不可识别的字符转义序列
+     1>netClient.cpp(1571): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         otherClient.cpp
+         scene.cpp
+         utility.cpp
+         WonderLand.cpp
+       已完成执行任务“CL”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ClCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterClCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_ClCompile”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_ClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ResGen”；('@(EmbeddedResource)'!='')的计算结果为(''!='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“BeforeResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeResourceCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForResourceCompile”(目标“_ResourceCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“MakeDirsForResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResourceCompile”；('@(ResourceCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterResourceCompile”(目标“_ResourceCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterResourceCompile”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_ResourceCompile”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_ResourceCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“_ImpLib”；('$(ImpLibCompiled)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“_Lib”；('$(LibCompiled)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterBuildCompileEvent”(目标“BuildCompile”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterBuildCompileEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildCompile”(目标“Build”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BuildCompile”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLinkTraverse”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BuildLinkTraverse”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“BeforeLink”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BeforeLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeRCOutputs”(目标“ComputeRCGeneratedLinkInputs”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeRCOutputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeRCGeneratedLinkInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeRCGeneratedLinkInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeManifestGeneratedLinkerInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeManifestGeneratedLinkerInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCustomBuildOutput”(目标“_Link”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeCustomBuildOutput”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLOutputs”(目标“ComputeCLGeneratedLinkInputs”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeCLOutputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLGeneratedLinkInputs”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeCLGeneratedLinkInputs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeLinkInputsFromProject”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeLinkInputsFromProject”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeReferenceLinkInputs”；(@(ProjectReference) != '')的计算结果为( != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeManifestInputsTargets”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeManifestInputsTargets”的操作。
+       由于条件的计算结果为 false，已跳过目标“ManifestResourceCompile”；('$(EmbedManifestBy)' == 'LINK')的计算结果为('MT' == 'LINK')。
+       由于条件的计算结果为 false，已跳过目标“AssignWinFXEmbeddedResource”；('@(WinFXEmbeddedResource)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AssignTargetPaths”(目标“PrepareResourceNames”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignTargetPath”任务。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and '.txt'=='.manifest')。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and '.vcproj'=='.manifest')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AssignTargetPaths”的操作。
+       已跳过目标“AssignTargetPaths”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“SplitResourcesByCulture”(目标“PrepareResourceNames”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ResxWithNoCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ResxWithCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(NonResxWithCulture)'!='')计算为(''!='')。
+       由于 false 条件，已跳过任务“Warning”；('@(NonResxWithNoCulture)'!='')计算为(''!='')。
+       正在使用程序集“Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignCulture”任务。
+       任务“AssignCulture”
+       已完成执行任务“AssignCulture”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“SplitResourcesByCulture”的操作。
+       由于条件的计算结果为 false，已跳过目标“CreateManifestResourceNames”；('@(EmbeddedResource)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CreateCustomManifestResourceNames”(目标“PrepareResourceNames”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CreateCustomManifestResourceNames”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“PrepareResourceNames”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“PrepareResourceNames”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForLink”(目标“_Link”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“MakeDirsForLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“DoLinkOutputFilesMatch”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))')计算为('F:\Project-Final\WonderLandNet\Client\Release\WonderLand.exe' != 'F:\Project-Final\WonderLandNet\Client\Release\WonderLand.exe')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(_OutputFileFromLink.Extension)' != '$(TargetExt)')计算为('.exe' != '.exe')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(_OutputFileFromLink.Filename)' != '$(TargetName)')计算为('WonderLand' != 'WonderLand')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“DoLinkOutputFilesMatch”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“PreLinkEvent”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreLinkEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“PreLinkEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets”中的目标“Link”(目标“_Link”依赖于它):
+       正在使用程序集“Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Link”任务。
+       任务“Link”
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=1976
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\WonderLand.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.lib" /MACHINE:X86 Release\BitStream.obj
+         Release\CCRakNetSlidingWindow.obj
+         Release\CCRakNetUDT.obj
+         Release\CheckSum.obj
+         Release\CloudClient.obj
+         Release\CloudCommon.obj
+         Release\CloudServer.obj
+         Release\CommandParserInterface.obj
+         Release\ConnectionGraph2.obj
+         Release\ConsoleServer.obj
+         Release\DataCompressor.obj
+         Release\DirectoryDeltaTransfer.obj
+         Release\DS_BytePool.obj
+         Release\DS_ByteQueue.obj
+         Release\DS_HuffmanEncodingTree.obj
+         Release\DS_Table.obj
+         Release\DynDNS.obj
+         Release\EmailSender.obj
+         Release\EncodeClassName.obj
+         Release\EpochTimeToString.obj
+         Release\FileList.obj
+         Release\FileListTransfer.obj
+         Release\FileOperations.obj
+         Release\FormatString.obj
+         Release\FullyConnectedMesh2.obj
+         Release\Getche.obj
+         Release\Gets.obj
+         Release\GetTime.obj
+         Release\gettimeofday.obj
+         Release\GridSectorizer.obj
+         Release\HTTPConnection.obj
+         Release\IncrementalReadInterface.obj
+         Release\Itoa.obj
+         Release\LinuxStrings.obj
+         Release\LocklessTypes.obj
+         Release\LogCommandParser.obj
+         Release\MessageFilter.obj
+         Release\NatPunchthroughClient.obj
+         Release\NatPunchthroughServer.obj
+         Release\NatTypeDetectionClient.obj
+         Release\NatTypeDetectionCommon.obj
+         Release\NatTypeDetectionServer.obj
+         Release\NetworkIDManager.obj
+         Release\NetworkIDObject.obj
+         Release\PacketConsoleLogger.obj
+         Release\PacketFileLogger.obj
+         Release\PacketizedTCP.obj
+         Release\PacketLogger.obj
+         Release\PacketOutputWindowLogger.obj
+         Release\PluginInterface2.obj
+         Release\Rackspace.obj
+         Release\RakMemoryOverride.obj
+         Release\RakNetCommandParser.obj
+         Release\RakNetSocket.obj
+         Release\RakNetStatistics.obj
+         Release\RakNetTransport2.obj
+         Release\RakNetTypes.obj
+         Release\RakPeer.obj
+         Release\RakSleep.obj
+         Release\RakString.obj
+         Release\RakThread.obj
+         Release\RakWString.obj
+         Release\Rand.obj
+         Release\rdlmalloc.obj
+         Release\ReadyEvent.obj
+         Release\ReliabilityLayer.obj
+         Release\ReplicaManager3.obj
+         Release\Router2.obj
+         Release\RPC4Plugin.obj
+         Release\SecureHandshake.obj
+         Release\SendToThread.obj
+         Release\SHA1.obj
+         Release\SignaledEvent.obj
+         Release\SimpleMutex.obj
+         Release\SocketLayer.obj
+         Release\StatisticsHistory.obj
+         Release\StringCompressor.obj
+         Release\StringTable.obj
+         Release\SuperFastHash.obj
+         Release\TableSerializer.obj
+         Release\TCPInterface.obj
+         Release\TeamBalancer.obj
+         Release\TeamManager.obj
+         Release\TelnetTransport.obj
+         Release\ThreadsafePacketLogger.obj
+         Release\TwoWayAuthentication.obj
+         Release\UDPForwarder.obj
+         Release\UDPProxyClient.obj
+         Release\UDPProxyCoordinator.obj
+         Release\UDPProxyServer.obj
+         Release\VariableDeltaSerializer.obj
+         Release\VariableListDeltaTracker.obj
+         Release\VariadicSQLParser.obj
+         Release\VitaIncludes.obj
+         Release\WSAStartupSingleton.obj
+         Release\_FindFirst.obj
+         Release\Building.obj
+         Release\BuildingCommentContent.obj
+         Release\fileTransper.obj
+         Release\GUI.obj
+         Release\LandMenu.obj
+         Release\main.obj
+         Release\netClient.obj
+         Release\otherClient.obj
+         Release\scene.obj
+         Release\utility.obj
+         Release\WonderLand.obj
+         跟踪命令:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i F:\Project-Final\WonderLandNet\Client\WonderLand\Release /r "F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\BITSTREAM.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\BUILDING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\BUILDINGCOMMENTCONTENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CCRAKNETSLIDINGWINDOW.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CCRAKNETUDT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CHECKSUM.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CLOUDCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CLOUDCOMMON.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CLOUDSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\COMMANDPARSERINTERFACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CONNECTIONGRAPH2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\CONSOLESERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\DATACOMPRESSOR.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\DIRECTORYDELTATRANSFER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\DS_BYTEPOOL.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\DS_BYTEQUEUE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\DS_HUFFMANENCODINGTREE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\DS_TABLE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\DYNDNS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\EMAILSENDER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\ENCODECLASSNAME.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\EPOCHTIMETOSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\FILELIST.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\FILELISTTRANSFER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\FILEOPERATIONS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\FILETRANSPER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\FORMATSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\FULLYCONNECTEDMESH2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\GETCHE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\GETS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\GETTIME.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\GETTIMEOFDAY.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\GRIDSECTORIZER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\GUI.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\HTTPCONNECTION.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\INCREMENTALREADINTERFACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\ITOA.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\LANDMENU.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\LINUXSTRINGS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\LOCKLESSTYPES.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\LOGCOMMANDPARSER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\MAIN.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\MESSAGEFILTER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NATPUNCHTHROUGHCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NATPUNCHTHROUGHSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NATTYPEDETECTIONCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NATTYPEDETECTIONCOMMON.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NATTYPEDETECTIONSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NETCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NETWORKIDMANAGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\NETWORKIDOBJECT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\OTHERCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\PACKETCONSOLELOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\PACKETFILELOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\PACKETIZEDTCP.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\PACKETLOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\PACKETOUTPUTWINDOWLOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\PLUGININTERFACE2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RACKSPACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKMEMORYOVERRIDE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKNETCOMMANDPARSER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKNETSOCKET.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKNETSTATISTICS.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKNETTRANSPORT2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKNETTYPES.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKPEER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKSLEEP.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKTHREAD.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAKWSTRING.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RAND.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RDLMALLOC.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\READYEVENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RELIABILITYLAYER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\REPLICAMANAGER3.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\ROUTER2.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\RPC4PLUGIN.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SCENE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SECUREHANDSHAKE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SENDTOTHREAD.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SHA1.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SIGNALEDEVENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SIMPLEMUTEX.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SOCKETLAYER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\STATISTICSHISTORY.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\STRINGCOMPRESSOR.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\STRINGTABLE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\SUPERFASTHASH.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\TABLESERIALIZER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\TCPINTERFACE.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\TEAMBALANCER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\TEAMMANAGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\TELNETTRANSPORT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\THREADSAFEPACKETLOGGER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\TWOWAYAUTHENTICATION.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\UDPFORWARDER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\UDPPROXYCLIENT.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\UDPPROXYCOORDINATOR.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\UDPPROXYSERVER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\UTILITY.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\VARIABLEDELTASERIALIZER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\VARIABLELISTDELTATRACKER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\VARIADICSQLPARSER.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\VITAINCLUDES.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\WONDERLAND.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\WSASTARTUPSINGLETON.OBJ|F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\_FINDFIRST.OBJ" /b MSBuildConsole_CancelEventceb8de48dc704139a923fd0858b6f7cf  /c "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\WonderLand.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.lib" /MACHINE:X86 Release\BitStream.obj
+         Release\CCRakNetSlidingWindow.obj
+         Release\CCRakNetUDT.obj
+         Release\CheckSum.obj
+         Release\CloudClient.obj
+         Release\CloudCommon.obj
+         Release\CloudServer.obj
+         Release\CommandParserInterface.obj
+         Release\ConnectionGraph2.obj
+         Release\ConsoleServer.obj
+         Release\DataCompressor.obj
+         Release\DirectoryDeltaTransfer.obj
+         Release\DS_BytePool.obj
+         Release\DS_ByteQueue.obj
+         Release\DS_HuffmanEncodingTree.obj
+         Release\DS_Table.obj
+         Release\DynDNS.obj
+         Release\EmailSender.obj
+         Release\EncodeClassName.obj
+         Release\EpochTimeToString.obj
+         Release\FileList.obj
+         Release\FileListTransfer.obj
+         Release\FileOperations.obj
+         Release\FormatString.obj
+         Release\FullyConnectedMesh2.obj
+         Release\Getche.obj
+         Release\Gets.obj
+         Release\GetTime.obj
+         Release\gettimeofday.obj
+         Release\GridSectorizer.obj
+         Release\HTTPConnection.obj
+         Release\IncrementalReadInterface.obj
+         Release\Itoa.obj
+         Release\LinuxStrings.obj
+         Release\LocklessTypes.obj
+         Release\LogCommandParser.obj
+         Release\MessageFilter.obj
+         Release\NatPunchthroughClient.obj
+         Release\NatPunchthroughServer.obj
+         Release\NatTypeDetectionClient.obj
+         Release\NatTypeDetectionCommon.obj
+         Release\NatTypeDetectionServer.obj
+         Release\NetworkIDManager.obj
+         Release\NetworkIDObject.obj
+         Release\PacketConsoleLogger.obj
+         Release\PacketFileLogger.obj
+         Release\PacketizedTCP.obj
+         Release\PacketLogger.obj
+         Release\PacketOutputWindowLogger.obj
+         Release\PluginInterface2.obj
+         Release\Rackspace.obj
+         Release\RakMemoryOverride.obj
+         Release\RakNetCommandParser.obj
+         Release\RakNetSocket.obj
+         Release\RakNetStatistics.obj
+         Release\RakNetTransport2.obj
+         Release\RakNetTypes.obj
+         Release\RakPeer.obj
+         Release\RakSleep.obj
+         Release\RakString.obj
+         Release\RakThread.obj
+         Release\RakWString.obj
+         Release\Rand.obj
+         Release\rdlmalloc.obj
+         Release\ReadyEvent.obj
+         Release\ReliabilityLayer.obj
+         Release\ReplicaManager3.obj
+         Release\Router2.obj
+         Release\RPC4Plugin.obj
+         Release\SecureHandshake.obj
+         Release\SendToThread.obj
+         Release\SHA1.obj
+         Release\SignaledEvent.obj
+         Release\SimpleMutex.obj
+         Release\SocketLayer.obj
+         Release\StatisticsHistory.obj
+         Release\StringCompressor.obj
+         Release\StringTable.obj
+         Release\SuperFastHash.obj
+         Release\TableSerializer.obj
+         Release\TCPInterface.obj
+         Release\TeamBalancer.obj
+         Release\TeamManager.obj
+         Release\TelnetTransport.obj
+         Release\ThreadsafePacketLogger.obj
+         Release\TwoWayAuthentication.obj
+         Release\UDPForwarder.obj
+         Release\UDPProxyClient.obj
+         Release\UDPProxyCoordinator.obj
+         Release\UDPProxyServer.obj
+         Release\VariableDeltaSerializer.obj
+         Release\VariableListDeltaTracker.obj
+         Release\VariadicSQLParser.obj
+         Release\VitaIncludes.obj
+         Release\WSAStartupSingleton.obj
+         Release\_FindFirst.obj
+         Release\Building.obj
+         Release\BuildingCommentContent.obj
+         Release\fileTransper.obj
+         Release\GUI.obj
+         Release\LandMenu.obj
+         Release\main.obj
+         Release\netClient.obj
+         Release\otherClient.obj
+         Release\scene.obj
+         Release\utility.obj
+         Release\WonderLand.obj
+         正在生成代码
+         已完成代码的生成
+       已完成执行任务“Link”的操作。
+       任务“Message”
+         WonderLand.vcxproj -> F:\Project-Final\WonderLandNet\Client\Release\WonderLand.exe
+       已完成执行任务“Message”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“Link”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_DetermineManagedStateForLink”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_DetermineManagedStateForLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeLinkImportLibraryOutputsForClean”(目标“_Link”依赖于它):
+       由于 false 条件，已跳过任务“WriteLinesToFile”；('@(_LinkImportLibrary)' != '')计算为('' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeLinkImportLibraryOutputsForClean”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“AfterLink”(目标“_Link”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Link”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_Link”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_ALink”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_ALink”的操作。
+       已跳过目标“ComputeManifestInputsTargets”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“MakeDirsForManifest”(目标“Manifest”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“MakeDirsForManifest”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“Manifest”(目标“_Manifest”依赖于它):
+       由于 false 条件，已跳过任务“Delete”；(('$(BuildType)' != 'Build' or '$(ForceRebuild)' == 'true') and '$(EmbedManifestby)'=='LINK')计算为(('Rebuild' != 'Build' or '' == 'true') and 'MT'=='LINK')。
+       正在使用程序集“Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Mt”任务。
+       任务“Mt”
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.exe;#1" /manifest Release\WonderLand.exe.intermediate.manifest
+         跟踪命令:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i F:\Project-Final\WonderLandNet\Client\WonderLand\Release /r F:\PROJECT-FINAL\WONDERLANDNET\CLIENT\WONDERLAND\RELEASE\WONDERLAND.EXE.INTERMEDIATE.MANIFEST /b MSBuildConsole_CancelEvent5be47004bbc74645bc5e574263ebb49e  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe"  /nologo /verbose /outputresource:"F:\Project-Final\WonderLandNet\Client\Release\WonderLand.exe;#1" /manifest Release\WonderLand.exe.intermediate.manifest
+       已完成执行任务“Mt”的操作。
+       由于 false 条件，已跳过任务“RC”；('$(EmbedManifestby)'=='LINK')计算为('MT'=='LINK')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“Manifest”的操作。
+       已跳过目标“ComputeManifestGeneratedLinkerInputs”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Manifest”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_Manifest”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“RegisterOutput”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')计算为('Application'=='Application' and 'false'=='true' and 'false'!='true')。
+       由于 false 条件，已跳过任务“Exec”；('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')计算为('Application'=='Application' and 'false'=='true' and 'false'=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0')计算为('' != '' and '' != '0')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“RegisterOutput”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedXDCFiles”(目标“_XdcMake”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeCLCompileGeneratedXDCFiles”的操作。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '')的计算结果为('' != '')。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ResolvedXDCMake”(目标“_XdcMake”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true')计算为('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ResolvedXDCMake”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForXdcMake”(目标“_XdcMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“MakeDirsForXdcMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“XdcMake”；('@(XdcMake)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_XdcMake”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_XdcMake”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“ComputeCLCompileGeneratedSbrFiles”(目标“_BscMake”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“ComputeCLCompileGeneratedSbrFiles”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“MakeDirsForBscMake”(目标“_BscMake”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“MakeDirsForBscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“BscMake”；('@(BscMake)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_BscMake”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_BscMake”的操作。
+       由于条件的计算结果为 false，已跳过目标“RunCodeAnalysis”；('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true')的计算结果为(''=='true' or ''=='true')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_GenerateSatelliteAssemblyInputs”(目标“CreateSatelliteAssemblies”依赖于它):
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+       由于 false 条件，已跳过任务“Warning”；('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='')计算为(''!='' and ''=='')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_GenerateSatelliteAssemblyInputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“GenerateSatelliteAssemblies”；('@(_SatelliteAssemblyResourceInputs)' != '')的计算结果为('' != '')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CreateSatelliteAssemblies”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CreateSatelliteAssemblies”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Appverifier”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_Appverifier”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“_Deploy”(目标“BuildLink”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_Deploy”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeIntermediateSatelliteAssemblies”；(@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')的计算结果为( != '')。
+       由于条件的计算结果为 false，已跳过目标“_CopyFilesMarkedCopyLocal”；('@(ReferenceCopyLocalPaths)' != '')的计算结果为('' != '')。
+       已跳过目标“AssignTargetPaths”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets”中的目标“GetCopyToOutputDirectoryXamlAppDefs”(目标“GetCopyToOutputDirectoryItems”依赖于它):
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“GetCopyToOutputDirectoryXamlAppDefs”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“GetCopyToOutputDirectoryItems”(目标“_CopySourceItemsToOutputDirectory”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true')计算为('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')。
+       任务“AssignTargetPath”
+       已完成执行任务“AssignTargetPath”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“GetCopyToOutputDirectoryItems”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectory”；( '@(_SourceItemsToCopyToOutputDirectory)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyOutOfDateSourceItemsToOutputDirectoryAlways”；( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' )的计算结果为( '' != '' )。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CopySourceItemsToOutputDirectory”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_CopySourceItemsToOutputDirectory”的操作。
+       由于条件的计算结果为 false，已跳过目标“_CopyAppConfigFile”；( '@(AppConfigWithTargetPath)' != '' )的计算结果为( '' != '' )。
+       由于条件的计算结果为 false，已跳过目标“_CopyManifestFiles”；( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' )的计算结果为( ''=='true' or ''=='true' )。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“_CheckForCompileOutputs”(目标“CopyFilesToOutputDirectory”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“_CheckForCompileOutputs”的操作。
+       由于条件的计算结果为 false，已跳过目标“_SGenCheckForOutputs”；('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))的计算结果为('Auto' == 'On' or (''!='' and 'Auto' == 'Auto'))。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“CopyFilesToOutputDirectory”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“Copy”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')计算为('true' == 'true' and 'true' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true')计算为('true' == 'true' and 'true'!='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(AddModules)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('$(_SGenDllCreated)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true')计算为('false'=='true' and '' != 'true' and 'true'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('$(_DocumentationFileProduced)'=='true')计算为('false'=='true')。
+       由于 false 条件，已跳过任务“Copy”；('@(IntermediateSatelliteAssembliesWithTargetPath)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“Copy”；('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' )计算为('' != '' or '' != '' or '' != '' or '' != '' )。
+       由于 false 条件，已跳过任务“Copy”；('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '')计算为('' != 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Message”；('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '')计算为('' != 'true' and '' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“CopyFilesToOutputDirectory”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuildStep”；('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')的计算结果为('' != '' and ''=='')。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets”中的目标“PostBuildEvent”(目标“BuildLink”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PostBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“PostBuildEvent”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“BuildLink”(目标“Build”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“BuildLink”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“AfterBuild”(目标“Build”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterBuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets”中的目标“FinalizeBuildStatus”(目标“Build”依赖于它):
+       任务“Delete”
+         正在删除文件“Release\WonderLand.unsuccessfulbuild”。
+       已完成执行任务“Delete”的操作。
+       任务“Touch”
+         正在对“Release\WonderLand.lastbuildstate”执行 Touch 任务。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“FinalizeBuildStatus”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“Build”(目标“Rebuild”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“Build”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets”中的目标“AfterRebuild”(目标“Rebuild”依赖于它):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“AfterRebuild”的操作。
+     1>来自项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets”中的目标“Rebuild”(入口点):
+     1>已完成在项目“WonderLand.vcxproj”中生成目标“Rebuild”的操作。
+     1>已完成生成项目“F:\Project-Final\WonderLandNet\Client\WonderLand\WonderLand.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:48.86
